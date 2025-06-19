@@ -32,9 +32,8 @@ export default function Header({ onAddFood }: HeaderProps) {
 
           <div className="flex items-center space-x-4">
             <Button onClick={onAddFood} className="bg-orange-500 hover:bg-orange-600 text-white">
-              Add Food
+              Add Meal
             </Button>
-            <Button variant="outline">Login</Button>
           </div>
         </div>
       </div>
